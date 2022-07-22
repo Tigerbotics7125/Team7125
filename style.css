@@ -9,11 +9,35 @@
 }
 
 html, body {
-  min-height: 100%;
+  display: flex;
 }
 
 body {
-  background-image: repeating-linear-gradient(115deg, #dd3311 0%, #fc6400 100%);
+  display: flex;
+  background-image: linear-gradient(115deg, #dd3311 0%, #fc6400 100%);
+}
+
+#title-bar {
+  display: flex;
+}
+
+#logo-motto {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+#logo {
+  width: 7em;
+  padding: 2%;
+}
+
+#motto {
+  margin-top:3.5em;
+  justify-content: center;
+  font-family: 'Orbitron', sans-serif;
+  font-size: .5em;
+  white-space: nowrap;
 }
 
 #container {
