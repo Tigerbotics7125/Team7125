@@ -1,0 +1,55 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+@font-face {
+  font-family: fontawesome;
+  src: url('/assets/fonts/fa-solid-900.woff2')
+}
+
+html, body {
+  min-height: 100%;
+}
+
+body {
+  background-image: repeating-linear-gradient(115deg, #dd3311 0%, #fc6400 100%);
+}
+
+#container {
+  width: 600px;
+  margin: 200px auto;
+}
+
+#top-tabs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#top-tabs > div {
+  margin-left: 20px;
+  font-family: fontawesome;
+  font-size: 30px;
+  color: white;
+  cursor: pointer;
+  text-shadow: 0 0 5px black;
+}
+
+#content-area {
+  background: white;
+  width: 90%;
+  min-height: 200px;
+  margin-top: 30px;
+  padding: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+#content-area > div {
+  display: none;
+}
+
+#content-area > div:first-child {
+  display: block;
+}
